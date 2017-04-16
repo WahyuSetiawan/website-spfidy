@@ -1,0 +1,42 @@
+
+.form-div {
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+  	border: 1px #ccc solid;
+  	padding: 0px;
+  	width: autopx; 
+	text-align:center;
+}
+
+.form-div .label {
+  display: block;
+  float: left;
+  width: 150px;
+  text-align: right;
+  margin-right: 5px;
+}
+.form-div .form-row {
+  padding: 5px 0;
+  clear: both;
+  width: autopx;
+}
+.form-div label.error {
+	 width: 150px;
+	 display: block;
+	 float: left;
+	 color: red;
+	 padding-left: 10px;
+	 background: url(../images/invalid.png) no-repeat;
+}
+.form-div input {
+  	width: autopx;
+  	float: left;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.form-div label.valid {
+  width: 20px;
+  background: url(../images/valid.gif) center no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+}

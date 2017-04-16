@@ -1,0 +1,61 @@
+
+form {
+  margin: 0 22px 22px 22px;
+  border: 1px dotted #cd2300;
+  padding: 15px;
+  width: 800px;
+}
+form div { margin-bottom: 10px; }
+form label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+form input {
+  width: 200px;
+  padding: 5px;
+  font-size: 11px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+form textarea {
+  width: 210px;
+  height: 70px;
+  padding: 5px;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+form p {
+  float: left;
+  padding-right: 10px;
+  margin-bottom: 0;
+  color: #555555;
+  font-size: 12px;
+}
+form p input { width: auto; }
+form .clear {
+  clear: both;
+  margin: 0;
+}
+form .submit {
+  margin-bottom: 0;
+}
+form .submit input {
+  width: auto;
+  cursor: pointer;
+}
+.ketchup-error-container-alt {
+  margin: 10px;
+  width: 510px;
+  display: none;
+}
+.ketchup-error-container-alt li {
+  background: #f04d5b;
+  color: black;
+  padding: 3px 10px 3px 10px;
+  font-size: 12px;
+  margin-bottom: 3px;
+  boder-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}

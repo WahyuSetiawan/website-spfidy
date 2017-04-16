@@ -1,0 +1,138 @@
+h1 {
+	font-family: Cambria;
+	font-size: 16;
+	text-align: center;
+}
+
+span.h1 {
+	font-family: Cambria;
+	font-size: 16;
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	line-height: 150%;
+	text-align: justify;
+	text-indent: 40px;
+	page-break-inside: avoid;
+}
+
+p.title {
+	font-family: Cambria;
+	font-size: 42;
+	line-height: 100%;
+	text-align: center;
+	text-indent: 0px;
+}
+
+p.title span {
+	font-family: Cambria;
+	font-size: 54;
+	line-height: 100%;
+	text-align: center;
+	text-indent: 0px;
+}
+
+p.head1 {
+	line-height: 150%;
+	text-align: left;
+	text-indent: 0px;
+}
+
+p.table-caption {
+	line-height: 100%;
+	text-align: center;
+	text-indent: 0px;
+}
+
+li {
+	line-height: 150%;
+	text-align: justify;
+}
+
+div.toc {
+	background: url('../images/blank.png') repeat-x left 12px;
+	float:left; 
+}
+
+div.dot {
+	background: url('../images/dotted.gif') repeat-x left 13px;
+}
+
+<!-- ** All media (screen and print) ** -->
+
+table.the-header {
+	font-family: 'lucida grande',tahoma,arial,sans-serif;
+	font-size: 12px;
+	width: 100%;
+}
+
+table.the-header td {
+	font-family: 'lucida grande',tahoma,arial,sans-serif;
+	font-size: 12px;
+}
+
+table.the-data {
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+	border-bottom: 1.5pt solid #000000; 
+	border-top: 1.5pt solid #000000;
+	font-family: 'lucida grande',tahoma,arial,sans-serif;
+	font-size: 12px; 
+	width: 100%;
+}
+
+table.the-data tr.row-bold {
+	background-color: #DFDFDF;
+	font-weight: bold;
+}
+
+table.the-data th {
+	background-color: #E5E5E5;
+	border: 0.5pt solid windowtext;
+	text-align: center;
+}
+
+table.the-data th.the-center {
+	background-color: #E5E5E5;
+	border: 0.5pt solid #BFBFBF;
+	text-align: center;
+}
+
+table.the-data td {
+	border: 0.5pt solid windowtext;
+	padding-left: 4px;
+	padding-right: 4px;
+	text-align: left;
+	vertical-align: top;
+}
+
+table.the-footer {
+	background-color: #FFFFFF;
+	font-family: arial,tahoma,sans-serif;
+	font-size: 12px;
+	/*font-weight: bold;*/
+}
+
+table.the-footer td {
+	border: 0;
+	/*text-align: center;*/
+	vertical-align: top;
+}
+
+<!-- ** Specific media (screen or print) ** -->
+
+@media screen {
+	.page-separator {
+		
+	}
+}
+
+@media print {
+	.page-separator {
+		border: 0px solid #000000;
+		color: #FFFFFF;
+		page-break-after: always;
+	}
+}
